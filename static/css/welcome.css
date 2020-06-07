@@ -1,23 +1,3 @@
-body {
-    background: white;
-}
-
-/* Navbar */
-.navbar {
-
-    border-bottom: 2px solid black;
-
-}
-
-.navbar .logo {
-
-    color: black;
-    margin-left: 45px;
-
-}
-
-/* End Navbar */
-
 /* Figure Banner */
 .figure {
 
@@ -35,10 +15,9 @@ body {
     margin-top: 100px;
     margin-left: 100px;
     width: 520px;
-    background: #fff;
-    color: black;
+    background: #000;
+    color: white;
     text-align: justify;
-    border-color: #fff;
 }
 
 .card-title {
@@ -50,7 +29,7 @@ body {
 .card-link {
 
     margin-left: 340px;
-    border-color: #000;
+    border-color: #fff;
 }
 
 .card-link:hover {
