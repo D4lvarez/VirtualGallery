@@ -1,17 +1,17 @@
 body {
-    background: black;
+    background: white;
 }
 
 /* Navbar */
 .navbar {
 
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid black;
 
 }
 
 .navbar .logo {
 
-    color: white;
+    color: black;
     margin-left: 45px;
 
 }
@@ -35,9 +35,10 @@ body {
     margin-top: 100px;
     margin-left: 100px;
     width: 520px;
-    background: #000;
-    color: white;
+    background: #fff;
+    color: black;
     text-align: justify;
+    border-color: #fff;
 }
 
 .card-title {
@@ -49,12 +50,14 @@ body {
 .card-link {
 
     margin-left: 340px;
+    border-color: #000;
 }
 
 .card-link:hover {
 
     color: white;
     background: #000;
+    border-color: #fff;
 }
 
 /* End Card Banner */
