@@ -1,34 +1,36 @@
-body{
+body {
     background: black;
 }
 
 /* Navbar */
-.navbar{
+.navbar {
 
-    border-bottom: 2px solid white ;
+    border-bottom: 2px solid white;
 
 }
 
-.navbar .logo{
+.navbar .logo {
 
     color: white;
     margin-left: 45px;
 
 }
+
 /* End Navbar */
 
 /* Figure Banner */
-.figure{
+.figure {
 
     width: 730px;
-    margin-left: 90px;
+    margin-left: 100px;
     margin-top: 100px;
 }
+
 /* End Figure Banner */
 
 /* Card Banner */
 
-.card{
+.card {
 
     margin-top: 100px;
     margin-left: 100px;
@@ -38,21 +40,54 @@ body{
     text-align: justify;
 }
 
-.card-title{
+.card-title {
 
     margin-top: -40px;
     font-size: 60px;
 }
 
-.card-link{
+.card-link {
 
     margin-left: 340px;
 }
 
-.card-link:hover{
+.card-link:hover {
 
     color: white;
     background: #000;
 }
 
 /* End Card Banner */
+
+@media (max-width: 576px) {
+
+    .figure {
+        
+        margin-top: 40px;
+        margin-left: 40px;
+        width: 560px;
+    }
+
+    .card {
+
+        margin-left: 10px;
+        width: 450px
+    }
+
+    .card-title {
+
+        font-size: 25px;
+        margin-top: -90px;
+    }
+
+    .card-text {
+
+        font-size: 15px;
+        overflow-wrap: break-word;
+    }
+
+    .card-link {
+
+        margin-left: 274px;
+    }
+}
