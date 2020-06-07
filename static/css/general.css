@@ -1,0 +1,19 @@
+body {
+    background: black;
+}
+
+/* Navbar */
+.navbar {
+
+    border-bottom: 2px solid white;
+
+}
+
+.navbar .logo {
+
+    color: white;
+    margin-left: 45px;
+
+}
+
+/* End Navbar */
