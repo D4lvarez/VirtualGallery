@@ -92,39 +92,6 @@ body {
     }
 }
 
-@media (max-width: 411px) {
-
-    .figure {
-        
-        margin-top: 40px;
-        margin-left: 35px !important;
-        width: 400px !important;
-    }
-
-    .card {
-
-        margin-left: 15px !important;
-        width: 350px !important;
-    }
-
-    .card-title {
-
-        font-size: 25px;
-        margin-top: -90px;
-    }
-
-    .card-text {
-
-        font-size: 15px;
-        
-    }
-
-    .card-link {
-
-        margin-left: 174px !important;
-    }
-}
-
 @media (max-width: 576px) {
 
     .figure {
