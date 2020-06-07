@@ -59,6 +59,39 @@ body {
 
 /* End Card Banner */
 
+@media (max-width: 360px) {
+
+    .figure {
+        
+        margin-top: 40px;
+        margin-left: 20px !important;
+        width: 400px !important;
+    }
+
+    .card {
+
+        margin-left: 0px !important;
+        width: 310px !important;
+    }
+
+    .card-title {
+
+        font-size: 25px;
+        margin-top: -90px;
+    }
+
+    .card-text {
+
+        font-size: 15px;
+        
+    }
+
+    .card-link {
+
+        margin-left: 134px !important;
+    }
+}
+
 @media (max-width: 576px) {
 
     .figure {
